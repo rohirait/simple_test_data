@@ -1,0 +1,138 @@
+{
+  "lessons": [
+    {
+      "id": "math_101",
+      "title": "Basic Algebra",
+      "description": "Introduction to algebraic equations",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "contentComponents": [
+            {
+              "type": "text",
+              "content": "Algebra is the branch of mathematics that uses letters and symbols to represent numbers.",
+              "style": { "fontSize": 16 }
+            },
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/mockimages/math/main/algebra_intro.png",
+              "caption": "Simple equation: 2x + 3 = 7"
+            }
+          ]
+        },
+        {
+          "pageNumber": 2,
+          "contentComponents": [
+            {
+              "type": "text",
+              "content": "To solve for x, we need to isolate it on one side of the equation.",
+              "style": { "fontWeight": "bold" }
+            }
+          ]
+        },
+        {
+          "pageNumber": 3,
+          "isTaskPage": true,
+          "taskIds": ["task_1", "task_2"]
+        }
+      ]
+    },
+    {
+      "id": "chem_201",
+      "title": "Chemical Bonds",
+      "description": "Understanding ionic and covalent bonds",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "contentComponents": [
+            {
+              "type": "text",
+              "content": "Atoms form bonds to achieve stable electron configurations.",
+              "style": { "color": "#3366FF" }
+            },
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/mockimages/chem/main/bond_types.png",
+              "altText": "Ionic vs covalent bond diagram"
+            }
+          ]
+        },
+        {
+          "pageNumber": 2,
+          "isTaskPage": true,
+          "taskIds": ["task_2", "task_3"]
+        }
+      ]
+    },
+    {
+      "id": "physics_301",
+      "title": "Newton's Laws",
+      "description": "Fundamentals of classical mechanics",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "contentComponents": [
+            {
+              "type": "text",
+              "content": "Newton's First Law: An object in motion stays in motion unless acted upon by an external force.",
+              "style": { "fontStyle": "italic" }
+            },
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/mockimages/physics/main/newton_laws.jpg",
+              "caption": "Illustration of inertia"
+            }
+          ]
+        },
+        {
+          "pageNumber": 2,
+          "contentComponents": [
+            {
+              "type": "text",
+              "content": "F = ma (Force equals mass times acceleration)"
+            }
+          ]
+        },
+        {
+          "pageNumber": 3,
+          "isTaskPage": true,
+          "taskIds": ["task_1", "task_3", "task_4"]
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1",
+      "type": "multiple_choice",
+      "questionText": "What is the solution to 2x + 3 = 7?",
+      "options": ["x = 1", "x = 2", "x = 3"],
+      "correctAnswerIndex": 1,
+      "sharedInLessons": ["math_101", "physics_301"]
+    },
+    {
+      "id": "task_2",
+      "type": "multiple_choice",
+      "questionText": "Which bond involves electron sharing?",
+      "options": ["Ionic", "Covalent", "Metallic"],
+      "correctAnswerIndex": 1,
+      "sharedInLessons": ["math_101", "chem_201"]
+    },
+    {
+      "id": "task_3",
+      "type": "multiple_choice",
+      "questionText": "What does F = ma represent?",
+      "options": ["Ohm's Law", "Newton's Second Law", "Pythagorean Theorem"],
+      "correctAnswerIndex": 1,
+      "sharedInLessons": ["chem_201", "physics_301"]
+    },
+    {
+      "id": "task_4",
+      "type": "multiple_choice",
+      "questionText": "Which law explains inertia?",
+      "options": ["First Law", "Second Law", "Third Law"],
+      "correctAnswerIndex": 0,
+      "sharedInLessons": ["physics_301"]
+    }
+  ]
+}
