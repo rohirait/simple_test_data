@@ -15,7 +15,7 @@
             },
             {
               "type": "image",
-              "url": "https://raw.githubusercontent.com/rohirait/simple_test_data/refs/heads/main/images/maths.svg",
+              "url": "https://raw.githubusercontent.com/rohirait/simple_test_data/refs/heads/main/images/maths.png",
               "caption": "Simple equation: 2x + 3 = 7"
             }
           ]
@@ -52,7 +52,7 @@
             },
             {
               "type": "image",
-              "url": "https://raw.githubusercontent.com/rohirait/simple_test_data/refs/heads/main/images/chemistry.svg",
+              "url": "https://raw.githubusercontent.com/rohirait/simple_test_data/refs/heads/main/images/chemistry.png",
               "altText": "Ionic vs covalent bond diagram"
             }
           ]
@@ -79,7 +79,7 @@
             },
             {
               "type": "image",
-              "url": "https://raw.githubusercontent.com/rohirait/simple_test_data/refs/heads/main/images/physics.svg",
+              "url": "https://raw.githubusercontent.com/rohirait/simple_test_data/refs/heads/main/images/physics.png",
               "caption": "Illustration of inertia"
             }
           ]
